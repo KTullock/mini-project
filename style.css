@@ -1,0 +1,103 @@
+/* Universal Selectors */
+* {
+    margin:0;
+    padding:0;  
+}
+      
+/* Element Selectors */
+body {
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    background-color: lavender;
+    color: rgb(39, 58, 90);
+}
+      
+h1,
+h2 {
+    margin: 40px;
+}
+      
+main {
+    padding: 60px 0;
+}
+      
+li {
+    display: inline;
+    padding: 0px 20px;
+    text-decoration: none;
+}
+      
+a {
+    text-decoration: none;
+    color: white
+}
+    
+header,
+footer {
+    height: 60px;
+    width: 100%;
+    line-height: 60px;
+    background-color: cornflowerblue
+}
+      
+header {
+    position: fixed;
+    border-bottom: 10px solid rgb(39, 58, 90);
+}
+      
+footer {
+    position: absolute;
+    margin-top: 0;
+    bottom: 0;
+    color: white   
+}
+      
+figure {
+    margin-bottom: 40px;
+}
+      
+img {
+    display: block;
+    margin: 20px auto;
+}
+      
+section {
+    margin-bottom: 0;
+    padding: 20px 10px 40px 10px;
+    border-top: 7px solid rgb(39, 58, 90);
+    background-color: rgb(164, 195, 253);
+}
+      
+form {
+    margin: auto;
+    width: 500px;
+    padding: 5px;
+}
+      
+label {
+    display: inline-block;
+    width: 100px;
+}
+      
+input {
+    box-sizing: border-box;
+    width: 300px;
+}
+      
+button {
+    height: 40px;
+    width: 120px;
+    margin: 7px;
+    background-color: rgb(39, 58, 90);
+    color: white;
+}
+       
+/* Class Selectors */
+.center {
+    text-align: center;
+}
+      
+.right-side {
+    text-align: right;
+}
